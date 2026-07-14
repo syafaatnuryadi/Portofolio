@@ -414,45 +414,92 @@
   </style>
 
   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
     {
-      "@context": "https://schema.org",
-      "@type": ["Person", "WebSite"],
+      "@type": "Person",
+      "@id": "https://yourdomain.com/#person",
       "name": "Syafaat Nuryadi",
-      "url": "https://yourdomain.com/",
-      "jobTitle": ["Web Developer", "Digital Creator", "Student"],
-      "description": "Portofolio profesional Syafaat Nuryadi yang fokus pada web development, desain visual, teknologi, dan branding digital.",
-      "email": "syafaatnuryadi27052006@gmail.com",
-      "telephone": "+6285177137899",
+      "givenName": "Syafaat",
+      "familyName": "Nuryadi",
+      "url": "https://syafaatnuryadi.com/",
+      "image": "https://syafaatnuryadi.com/foto-utama.png",
+      "jobTitle": "Web Developer",
+      "description": "Web Developer yang berfokus pada pengembangan website modern, UI/UX Design, HTML, CSS, JavaScript, serta Trading Analysis menggunakan pendekatan teknikal dan fundamental.",
+      "nationality": {
+        "@type": "Country",
+        "name": "Indonesia"
+      },
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Bengkulu",
         "addressCountry": "Indonesia"
       },
-      "sameAs": [
-        "https://www.instagram.com/syafaat_paiker",
-        "https://www.facebook.com/syafaat.paiker",
-        "https://vm.tiktok.com/ZSHvjHX6tuMgY-1w60C/"
-      ],
       "knowsAbout": [
-        "Web Development",
-        "HTML",
-        "CSS",
+        "HTML5",
+        "CSS3",
         "JavaScript",
-        "Digital Marketing",
+        "TypeScript",
+        "Responsive Web Design",
+        "Frontend Development",
+        "Web Development",
+        "UI Design",
+        "UX Design",
+        "SEO",
+        "Git",
+        "GitHub",
+        "Trading",
+        "Technical Analysis",
+        "Fundamental Analysis",
+        "Financial Market",
+        "Google AI Studio",
         "Canva",
         "CapCut"
       ],
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://yourdomain.com/"
+      "sameAs": [
+        "https://github.com/syafaatnuryadi",
+        "https://www.instagram.com/syafaat_paiker",
+        "https://www.facebook.com/syafaat.paiker"
+      ]
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://yourdomain.com/#website",
+      "url": "https://yourdomain.com/",
+      "name": "Syafaat Nuryadi",
+      "alternateName": "Syafaat Nuryadi Portfolio",
+      "description": "Official Portfolio Website of Syafaat Nuryadi.",
+      "publisher": {
+        "@id": "https://yourdomain.com/#person"
       },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://yourdomain.com/?s={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+      "inLanguage": "id-ID"
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://syafaatnuryadi.com/#webpage",
+      "url": "https://syafaatnuryadi.com/",
+      "name": "Syafaat Nuryadi | Web Developer",
+      "description": "Portfolio profesional Syafaat Nuryadi yang menampilkan proyek web development, UI/UX, teknologi, dan trading analysis.",
+      "isPartOf": {
+        "@id": "https://syafaatnuryadi.com/#website"
+      },
+      "about": {
+        "@id": "https://syafaatnuryadi.com/#person"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://syafaatnuryadi.com/assets/profile.jpg"
+      },
+      "inLanguage": "id-ID"
     }
-  </script>
+
+  ]
+}
+</script>
 </head>
 <body>
   <div class="loader"><div class="loader-ring"></div></div>
